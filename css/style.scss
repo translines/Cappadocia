@@ -229,3 +229,28 @@ body {
     padding-right: 55px;
   }
 }
+.hotel{
+  &__title{
+    span{
+      margin-left: 120px;
+    }
+  }
+  &__inner{
+    display: flex;
+  }
+  &__images{
+    margin-right: 100px;
+  }
+  &__text{
+    margin-bottom: 20px;
+  }
+  &__gallery{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    a{
+      margin-top: 50px;
+    }
+  }
+}
