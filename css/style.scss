@@ -224,32 +224,32 @@ body {
     border: 1px solid #e2ab3f;
     padding: 11px 53px;
   }
-  &__content{
+  &__content {
     width: 50%;
     padding-right: 55px;
   }
 }
-.hotel{
-  &__title{
-    span{
+.hotel {
+  &__title {
+    span {
       margin-left: 120px;
     }
   }
-  &__inner{
+  &__inner {
     display: flex;
   }
-  &__images{
+  &__images {
     margin-right: 100px;
   }
-  &__text{
+  &__text {
     margin-bottom: 20px;
   }
-  &__gallery{
+  &__gallery {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    a{
+    a {
       margin-top: 50px;
     }
   }
