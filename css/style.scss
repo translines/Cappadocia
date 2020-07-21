@@ -254,3 +254,165 @@ body {
     }
   }
 }
+.price {
+  background-image: url(../images/price-bg.png);
+  background-repeat: no-repeat;
+  background-position: center right 15%;
+  &__title {
+    span {
+      margin-left: 120px;
+    }
+  }
+  &__on-title,
+  &__off-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-family: "RobotoCondensed-Regular";
+  }
+  &__inner {
+    display: flex;
+  }
+  &__on {
+    margin-right: 70px;
+    width: 530px;
+  }
+  &__list-item {
+    margin-bottom: 20px;
+  }
+}
+.contacts {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__date {
+    margin-bottom: 20px;
+  }
+  &__price {
+    margin-left: 120px;
+  }
+  &__date,
+  &__price {
+    font-family: "balqis";
+    font-size: 96px;
+    color: #e2ab3f;
+    line-height: 100px;
+    font-weight: 300;
+    span {
+      display: block;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000;
+      font-family: "RobotoCondensed-LightItalic";
+      margin-top: -10px;
+      margin-left: 205px;
+    }
+  }
+  &__form {
+    max-width: 383px;
+    margin: 0 auto;
+  }
+  &__form-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-family: "RobotoCondensed-Regular";
+  }
+  &__form-input {
+    border: 1px solid #e2ab3f;
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    padding: 0 31px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "RobotoCondensed-Light";
+    &::placeholder {
+      color: #000;
+    }
+  }
+  &__form-btn {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border: 1px solid #e2ab3f;
+    background-color: transparent;
+    padding: 11px 45px;
+    font-family: "RobotoCondensed-Light";
+    cursor: pointer;
+  }
+}
+.footer {
+  background-image: url(../images/footer-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-top: 96px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    font-size: 86px;
+    line-height: 115px;
+    font-family: "balqis";
+  }
+  &__contacts {
+    width: 356px;
+    height: 527px;
+    
+    background-image: url(../images/footer-contacts-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  &__contacts-title {
+    font-size: 86px;
+    line-height: 115px;
+    font-family: "balqis";
+    color: #e2ab3f;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+  &__phone {
+    margin-bottom: 20px;
+    &::before{
+      background-image: url(../images/footer-phone-icon.svg);
+    }
+  }
+  &__email{
+    &::before{
+      background-image: url(../images/footer-mail-icon.svg);
+    }
+  }
+  &__phone,
+  &__email {
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 0;
+      top: -5px;
+    }
+  }
+  &__social{
+    margin-top: 38px;
+    a{
+      margin: 0 7px;
+    }
+  }
+}
