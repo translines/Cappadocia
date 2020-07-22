@@ -371,7 +371,7 @@ body {
   &__contacts {
     width: 356px;
     height: 527px;
-    
+    background-size: cover;
     background-image: url(../images/footer-contacts-bg.png);
     background-repeat: no-repeat;
     text-align: center;
@@ -386,12 +386,12 @@ body {
   }
   &__phone {
     margin-bottom: 20px;
-    &::before{
+    &::before {
       background-image: url(../images/footer-phone-icon.svg);
     }
   }
-  &__email{
-    &::before{
+  &__email {
+    &::before {
       background-image: url(../images/footer-mail-icon.svg);
     }
   }
@@ -400,7 +400,7 @@ body {
     display: inline-block;
     padding-left: 40px;
     position: relative;
-    &::before{
+    &::before {
       content: "";
       position: absolute;
       width: 30px;
@@ -409,10 +409,139 @@ body {
       top: -5px;
     }
   }
-  &__social{
+  &__social {
     margin-top: 38px;
-    a{
+    a {
       margin: 0 7px;
     }
   }
+}
+
+@media (max-width: 1240px) {
+  .header {
+    &__title {
+      padding-top: 120px;
+      font-size: 180px;
+      line-height: 220px;
+      span {
+        font-size: 50px;
+        margin-top: -50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .page-section {
+    margin: 100px 0;
+  }
+  .fairy-tail__container,
+  .our-trip__container {
+    position: static;
+  }
+  .fairy-tail {
+    &__slider {
+      width: 100%;
+    }
+    &__body {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .header {
+    &__title {
+      padding-top: 100px;
+      font-size: 120px;
+      line-height: 150px;
+      span {
+        font-size: 30px;
+        margin-top: -44px;
+      }
+    }
+    &__top {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__phone::before {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    &__top {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__title {
+      font-size: 80px;
+      line-height: 120px;
+      span {
+        font-size: 22px;
+        margin-top: -46px;
+        margin-right: 15px;
+      }
+    }
+  }
+  .menu {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .fairy-tail {
+    &__item img {
+      height: 50vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    &__title span {
+      margin-left: 110px;
+    }
+  }
+  .page-section {
+    margin: 50px 0;
+  }
+  .title {
+    margin-bottom: 25px;
+    font-size: 60px;
+    line-height: 110px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header {
+    &__title {
+      font-size: 60px;
+      line-height: 100px;
+      span {
+        font-size: 18px;
+        margin-right: 0px;
+      }
+    }
+  }
+  .menu {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 25px;
+  }
+  .menu__list-item + .menu__list-item {
+    margin-left: 18px;
+  }
+  .title {
+    font-size: 50px;
+    span{
+      font-size: 20px;
+    }
+  }
+  .fairy-tail {
+    &__title span {
+      margin-left: 90px;
+    }
+}
 }
