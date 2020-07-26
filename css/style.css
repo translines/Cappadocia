@@ -538,6 +538,34 @@ body {
   }
 }
 
+@media (max-width: 1196px) {
+  .hotel__images {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1148px) {
+  .hotel__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hotel__content {
+    margin-top: 20px;
+  }
+  .hotel__gallery {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .hotel__images {
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media (max-width: 991px) {
   .page-section {
     margin: 100px 0;
@@ -546,12 +574,30 @@ body {
   .our-trip__container {
     position: static;
   }
-  .fairy-tail__slider {
+  .fairy-tail__slider,
+  .our-trip__slider {
     width: 100%;
   }
-  .fairy-tail__body {
+  .fairy-tail__body,
+  .our-trip__body {
     width: 100%;
     padding-left: 0;
+  }
+  .our-trip__title {
+    margin: 0 0 50px;
+    text-align: left;
+  }
+  .our-trip__content {
+    width: 100%;
+    margin: 0 auto 50px;
+    padding-right: 0;
+  }
+  .our-trip__list {
+    margin: 5px auto;
+    width: 50%;
+  }
+  .our-trip__btn {
+    margin: 0 auto;
   }
 }
 
@@ -573,6 +619,12 @@ body {
     width: 25px;
     height: 25px;
     background-size: cover;
+  }
+  .hotel__gallery a {
+    width: 100%;
+  }
+  .hotel__gallery a img {
+    width: 100%;
   }
 }
 
@@ -606,6 +658,20 @@ body {
   }
   .fairy-tail__title span {
     margin-left: 110px;
+  }
+  .our-trip__slider-item img {
+    height: 50vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .our-trip__title span {
+    margin-left: 150px;
+  }
+  .our-trip__list {
+    width: 100%;
+    font-size: 21px;
+    line-height: 24px;
   }
   .page-section {
     margin: 50px 0;
@@ -642,6 +708,17 @@ body {
   }
   .fairy-tail__title span {
     margin-left: 90px;
+  }
+  .our-trip__title span {
+    margin-left: 125px;
+  }
+  .our-trip__list {
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .hotel__gallery a {
+    margin-top: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -431,6 +431,32 @@ body {
   }
 }
 
+@media (max-width: 1196px) {
+  .hotel__images{
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1148px) {
+  .hotel{
+    &__inner{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__content{
+      margin-top: 20px;
+    }
+    &__gallery{
+      justify-content: space-around;
+    }
+    &__images{
+      margin-right: 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
 @media (max-width: 991px) {
   .page-section {
     margin: 100px 0;
@@ -439,13 +465,32 @@ body {
   .our-trip__container {
     position: static;
   }
-  .fairy-tail {
+  .fairy-tail,
+  .our-trip {
     &__slider {
       width: 100%;
     }
     &__body {
       width: 100%;
       padding-left: 0;
+    }
+  }
+  .our-trip {
+    &__title {
+      margin: 0 0 50px;
+      text-align: left;
+    }
+    &__content {
+      width: 100%;
+      margin: 0 auto 50px;
+      padding-right: 0;
+    }
+    &__list{
+      margin: 5px auto;
+      width: 50%;
+    }
+    &__btn{
+      margin: 0 auto;
     }
   }
 }
@@ -469,6 +514,14 @@ body {
       width: 25px;
       height: 25px;
       background-size: cover;
+    }
+  }
+  .hotel{
+    &__gallery a{
+      width: 100%;
+    }
+    &__gallery a img{
+      width: 100%;
     }
   }
 }
@@ -504,6 +557,21 @@ body {
       margin-left: 110px;
     }
   }
+  .our-trip{
+    &__slider-item img {
+      height: 50vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    &__title span {
+      margin-left: 150px;
+    }
+    &__list{
+      width: 100%;
+      font-size: 21px;
+      line-height: 24px;
+    }
+  }
   .page-section {
     margin: 50px 0;
   }
@@ -535,7 +603,7 @@ body {
   }
   .title {
     font-size: 50px;
-    span{
+    span {
       font-size: 20px;
     }
   }
@@ -543,5 +611,20 @@ body {
     &__title span {
       margin-left: 90px;
     }
-}
+  }
+  .our-trip {
+    &__title span {
+      margin-left: 125px;
+    }
+    &__list{
+      width: 100%;
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+  .hotel{
+    &__gallery a{
+      margin-top: 18px;
+    }
+  }
 }
