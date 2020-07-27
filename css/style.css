@@ -526,6 +526,18 @@ body {
   margin: 0 7px;
 }
 
+@media (max-width: 1620px) {
+  .price {
+    background-size: 250px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .price {
+    background-size: 200px;
+  }
+}
+
 @media (max-width: 1240px) {
   .header__title {
     padding-top: 120px;
@@ -541,6 +553,9 @@ body {
 @media (max-width: 1196px) {
   .hotel__images {
     margin-right: 50px;
+  }
+  .price {
+    background-size: 100px;
   }
 }
 
@@ -563,6 +578,15 @@ body {
     margin-right: 0;
     width: 100%;
     height: auto;
+  }
+  .price {
+    background: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  .contacts__images {
+    width: 400px;
   }
 }
 
@@ -601,6 +625,22 @@ body {
   }
 }
 
+@media (max-width: 860px) {
+  .contacts__date, .contacts__price {
+    font-size: 70px;
+    line-height: 74px;
+  }
+  .contacts__date span, .contacts__price span {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 150px;
+  }
+  .contacts__form-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
 @media (max-width: 840px) {
   .header__title {
     padding-top: 100px;
@@ -625,6 +665,30 @@ body {
   }
   .hotel__gallery a img {
     width: 100%;
+  }
+  .price__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .price__on {
+    margin-right: 0;
+  }
+  .price__off {
+    width: 530px;
+  }
+  .contacts__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts__images {
+    width: 100%;
+    margin-top: 30px;
   }
 }
 
@@ -673,6 +737,12 @@ body {
     font-size: 21px;
     line-height: 24px;
   }
+  .hotel__title span {
+    margin-left: 70px;
+  }
+  .price__title span {
+    margin-left: 75px;
+  }
   .page-section {
     margin: 50px 0;
   }
@@ -719,6 +789,24 @@ body {
   }
   .hotel__gallery a {
     margin-top: 18px;
+  }
+  .hotel__title span {
+    margin-left: 60px;
+  }
+  .price__title span {
+    margin-left: 60px;
+  }
+  .contacts__date, .contacts__price {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .contacts__date span, .contacts__price span {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 110px;
+  }
+  .contacts__form {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -417,6 +417,16 @@ body {
   }
 }
 
+@media (max-width: 1620px) {
+  .price{
+    background-size: 250px;
+  }
+}
+@media (max-width: 1460px) {
+  .price{
+    background-size: 200px;
+  }
+}
 @media (max-width: 1240px) {
   .header {
     &__title {
@@ -434,6 +444,9 @@ body {
 @media (max-width: 1196px) {
   .hotel__images{
     margin-right: 50px;
+  }
+  .price{
+    background-size: 100px;
   }
 }
 
@@ -455,8 +468,18 @@ body {
       height: auto;
     }
   }
+  .price{
+    background: none;
+  }
 }
 
+@media (max-width: 1060px){
+  .contacts{
+    &__images{
+      width: 400px;
+    }
+  }
+}
 @media (max-width: 991px) {
   .page-section {
     margin: 100px 0;
@@ -495,6 +518,23 @@ body {
   }
 }
 
+@media (max-width: 860px){
+  .contacts{
+    &__date, &__price{
+      font-size: 70px;
+      line-height: 74px;
+      span{
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 150px;
+      }
+    }
+    &__form-title{
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
 @media (max-width: 840px) {
   .header {
     &__title {
@@ -522,6 +562,28 @@ body {
     }
     &__gallery a img{
       width: 100%;
+    }
+  }
+  .price{
+    &__inner{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__on{
+      margin-right: 0;
+    }
+    &__off{
+      width: 530px;
+    }
+  }
+  .contacts{
+    &__inner{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__images{
+      width: 100%;
+      margin-top: 30px;
     }
   }
 }
@@ -570,6 +632,20 @@ body {
       width: 100%;
       font-size: 21px;
       line-height: 24px;
+    }
+  }
+  .hotel{
+    &__title {
+      span {
+        margin-left: 70px;
+      }
+    }
+  }
+  .price{
+    &__title {
+      span {
+        margin-left: 75px;
+      }
     }
   }
   .page-section {
@@ -625,6 +701,32 @@ body {
   .hotel{
     &__gallery a{
       margin-top: 18px;
+    }
+    &__title {
+      span {
+        margin-left: 60px;
+      }
+    }
+  }
+  .price{
+    &__title {
+      span {
+        margin-left: 60px;
+      }
+    }
+  }
+  .contacts{
+    &__date, &__price{
+      font-size: 50px;
+      line-height: 58px;
+      span{
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 110px;
+      }
+    }
+    &__form{
+      margin-top: 30px;
     }
   }
 }
