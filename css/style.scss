@@ -418,12 +418,12 @@ body {
 }
 
 @media (max-width: 1620px) {
-  .price{
+  .price {
     background-size: 250px;
   }
 }
 @media (max-width: 1460px) {
-  .price{
+  .price {
     background-size: 200px;
   }
 }
@@ -442,40 +442,40 @@ body {
 }
 
 @media (max-width: 1196px) {
-  .hotel__images{
+  .hotel__images {
     margin-right: 50px;
   }
-  .price{
+  .price {
     background-size: 100px;
   }
 }
 
 @media (max-width: 1148px) {
-  .hotel{
-    &__inner{
+  .hotel {
+    &__inner {
       flex-wrap: wrap;
       justify-content: center;
     }
-    &__content{
+    &__content {
       margin-top: 20px;
     }
-    &__gallery{
+    &__gallery {
       justify-content: space-around;
     }
-    &__images{
+    &__images {
       margin-right: 0;
       width: 100%;
       height: auto;
     }
   }
-  .price{
+  .price {
     background: none;
   }
 }
 
-@media (max-width: 1060px){
-  .contacts{
-    &__images{
+@media (max-width: 1060px) {
+  .contacts {
+    &__images {
       width: 400px;
     }
   }
@@ -508,28 +508,36 @@ body {
       margin: 0 auto 50px;
       padding-right: 0;
     }
-    &__list{
+    &__list {
       margin: 5px auto;
       width: 50%;
     }
-    &__btn{
+    &__btn {
       margin: 0 auto;
+    }
+  }
+  .footer {
+    height: 100%;
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
 
-@media (max-width: 860px){
-  .contacts{
-    &__date, &__price{
+@media (max-width: 860px) {
+  .contacts {
+    &__date,
+    &__price {
       font-size: 70px;
       line-height: 74px;
-      span{
+      span {
         font-size: 18px;
         line-height: 20px;
         margin-left: 150px;
       }
     }
-    &__form-title{
+    &__form-title {
       font-size: 18px;
       line-height: 20px;
     }
@@ -556,38 +564,46 @@ body {
       background-size: cover;
     }
   }
-  .hotel{
-    &__gallery a{
+  .hotel {
+    &__gallery a {
       width: 100%;
     }
-    &__gallery a img{
+    &__gallery a img {
       width: 100%;
     }
   }
-  .price{
-    &__inner{
+  .price {
+    &__inner {
       flex-wrap: wrap;
       justify-content: center;
     }
-    &__on{
+    &__on {
       margin-right: 0;
     }
-    &__off{
+    &__off {
       width: 530px;
     }
   }
-  .contacts{
-    &__inner{
+  .contacts {
+    &__inner {
       flex-wrap: wrap;
       justify-content: center;
     }
-    &__images{
+    &__images {
       width: 100%;
       margin-top: 30px;
     }
   }
 }
 
+@media (max-width: 600px) {
+  .footer {
+    &__text {
+      font-size: 52px;
+      line-height: 60px;
+    }
+  }
+}
 @media (max-width: 600px) {
   .header {
     &__top {
@@ -619,7 +635,7 @@ body {
       margin-left: 110px;
     }
   }
-  .our-trip{
+  .our-trip {
     &__slider-item img {
       height: 50vh;
       width: 100%;
@@ -628,20 +644,20 @@ body {
     &__title span {
       margin-left: 150px;
     }
-    &__list{
+    &__list {
       width: 100%;
       font-size: 21px;
       line-height: 24px;
     }
   }
-  .hotel{
+  .hotel {
     &__title {
       span {
         margin-left: 70px;
       }
     }
   }
-  .price{
+  .price {
     &__title {
       span {
         margin-left: 75px;
@@ -655,6 +671,27 @@ body {
     margin-bottom: 25px;
     font-size: 60px;
     line-height: 110px;
+  }
+  .footer {
+    &__contacts {
+      background-size: contain;
+      width: 300px;
+      height: 444px;
+    }
+    &__contacts-title {
+      font-size: 58px;
+      line-height: 60px;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+    &__email {
+      font-size: 16px;
+    }
+    &__text {
+      font-size: 39px;
+      line-height: 41px;
+    }
   }
 }
 
@@ -692,14 +729,14 @@ body {
     &__title span {
       margin-left: 125px;
     }
-    &__list{
+    &__list {
       width: 100%;
       font-size: 18px;
       line-height: 21px;
     }
   }
-  .hotel{
-    &__gallery a{
+  .hotel {
+    &__gallery a {
       margin-top: 18px;
     }
     &__title {
@@ -708,24 +745,25 @@ body {
       }
     }
   }
-  .price{
+  .price {
     &__title {
       span {
         margin-left: 60px;
       }
     }
   }
-  .contacts{
-    &__date, &__price{
+  .contacts {
+    &__date,
+    &__price {
       font-size: 50px;
       line-height: 58px;
-      span{
+      span {
         font-size: 14px;
         line-height: 16px;
         margin-left: 110px;
       }
     }
-    &__form{
+    &__form {
       margin-top: 30px;
     }
   }
