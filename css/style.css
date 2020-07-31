@@ -702,10 +702,10 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .footer__text {
-    font-size: 52px;
-    line-height: 60px;
+    font-size: 39px;
+    line-height: 41px;
   }
 }
 
@@ -770,22 +770,19 @@ body {
   }
   .footer__contacts {
     background-size: contain;
-    width: 300px;
+    width: 272px;
     height: 444px;
   }
   .footer__contacts-title {
     font-size: 58px;
     line-height: 60px;
+    margin-bottom: 15px;
   }
   .footer__phone {
     font-size: 18px;
   }
   .footer__email {
     font-size: 16px;
-  }
-  .footer__text {
-    font-size: 39px;
-    line-height: 41px;
   }
 }
 

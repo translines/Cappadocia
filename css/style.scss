@@ -596,14 +596,22 @@ body {
   }
 }
 
-@media (max-width: 600px) {
-  .footer {
+@media (max-width: 640px) {
+  .footer{
     &__text {
-      font-size: 52px;
-      line-height: 60px;
+      font-size: 39px;
+      line-height: 41px;
     }
   }
 }
+// @media (max-width: 600px) {
+//   .footer {
+//     &__text {
+//       font-size: 52px;
+//       line-height: 60px;
+//     }
+//   }
+// }
 @media (max-width: 600px) {
   .header {
     &__top {
@@ -675,12 +683,13 @@ body {
   .footer {
     &__contacts {
       background-size: contain;
-      width: 300px;
+      width: 272px;
       height: 444px;
     }
     &__contacts-title {
       font-size: 58px;
       line-height: 60px;
+      margin-bottom: 15px;
     }
     &__phone {
       font-size: 18px;
@@ -688,10 +697,7 @@ body {
     &__email {
       font-size: 16px;
     }
-    &__text {
-      font-size: 39px;
-      line-height: 41px;
-    }
+    
   }
 }
 
